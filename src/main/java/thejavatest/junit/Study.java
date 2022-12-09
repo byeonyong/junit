@@ -4,9 +4,9 @@ import lombok.Data;
 
 public class Study {
 
-    private int limit;
+    private final int limit;
 
-    private StudyStatus status = StudyStatus.DRAFT;
+    private final StudyStatus status = StudyStatus.DRAFT;
 
     public Study(int limit){
 

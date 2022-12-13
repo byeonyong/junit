@@ -1,16 +1,14 @@
 package thejavatest.junit;
 
-import net.bytebuddy.implementation.bind.MethodDelegationBinder;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.function.Executable;
 
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 // displayName 클래스에도 쓸수있는데 이 클래스에 있는 메소드들에대한 이름 전시가능
-@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-class StudyTest {
+//@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class) // properties 파일에서 테스트 파일 전체 UndertoSpace로 적용했기때문에
+class assertTest {
 
     @Test
     @DisplayName("스터디 만들기 (반함)") // 메소드에 이름 만들어 주는거
